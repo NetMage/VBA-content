@@ -13,7 +13,7 @@ ms.date: 06/08/2017
 
 # Worksheet.Deactivate Event (Excel)
 
-Occurs when the chart, worksheet, or workbook is deactivated.
+Occurs when the chart, worksheet, or workbook is deactivated. In the event, the ActiveWorksheet has already changed. You can use Me to reference the previous worksheet.
 
 
 ## Syntax
